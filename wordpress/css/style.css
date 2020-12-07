@@ -5,9 +5,9 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
-    /*centering the div*/
 }
 
 .promo {
@@ -120,11 +120,11 @@ h2.title {
 }
 
 .waiting{
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
-.waiting .waiting_header{
+.waiting .waiting_header, .finish .finish_header{
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -132,8 +132,10 @@ h2.title {
     text-align: center;
     text-transform: uppercase;
 }
-
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #fff;
+}
+.waiting .waiting_divider, .finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
@@ -167,4 +169,70 @@ h2.title {
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header{
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 29px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+.optimization .optimization_text{
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+.optimization .optimization_text span{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.optimization .optimization_img{
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
 }
