@@ -80,7 +80,8 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -101,11 +102,11 @@ h2.title {
     cursor: pointer;
 }
 
-.more{
+.more {
     margin-top: 73px;
 }
 
-.more .more_text{
+.more .more_text {
     color: #ffffff;
     font-family: "Roboto - Thin";
     font-size: 15px;
@@ -113,18 +114,21 @@ h2.title {
     text-align: center;
     text-transform: uppercase;
 }
-.more .more_img{
+
+.more .more_img {
     display: block;
     margin: 0 auto;
     margin-top: 13px;
 }
 
-.waiting{
+.waiting {
     min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
-.waiting .waiting_header, .finish .finish_header{
+
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -132,17 +136,21 @@ h2.title {
     text-align: center;
     text-transform: uppercase;
 }
+
 .finish .finish_header {
     color: #fff;
 }
-.waiting .waiting_divider, .finish .finish_divider {
+
+.waiting .waiting_divider,
+.finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
     margin: 0 auto;
     margin-top: 18px;
 }
-.waiting .waiting_subheader{
+
+.waiting .waiting_subheader {
     margin-top: 17px;
     color: #4a4a4a;
     font-family: Roboto;
@@ -150,19 +158,23 @@ h2.title {
     font-weight: 400;
     text-align: center;
 }
-.waiting .waiting_wrapper{
+
+.waiting .waiting_wrapper {
     margin-top: 45px;
 }
-.waiting .waiting_wrapper .waiting_item{
+
+.waiting .waiting_wrapper .waiting_item {
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
     width: 339px;
 }
-.waiting .waiting_wrapper .waiting_item .waiting_img{
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
 }
-.waiting .waiting_wrapper .waiting_item .waiting_descr{
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
     font-family: Roboto;
@@ -171,11 +183,12 @@ h2.title {
     line-height: 21px;
 }
 
-.optimization{
+.optimization {
     min-height: 550px;
     padding: 102px 0 107px 0;
 }
-.optimization .optimization_header{
+
+.optimization .optimization_header {
     margin-left: 391px;
     color: #299cbd;
     font-family: "Roboto - Black";
@@ -184,7 +197,8 @@ h2.title {
     text-align: left;
     text-transform: uppercase;
 }
-.optimization .optimization_text{
+
+.optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
     color: #4a4a4a;
@@ -194,31 +208,36 @@ h2.title {
     font-family: "Roboto Light";
     font-weight: 300;
 }
-.optimization .optimization_text span{
+
+.optimization .optimization_text span {
     font-family: "Roboto - Bold";
     font-weight: 700;
 }
-.optimization .optimization_img{
+
+.optimization .optimization_img {
     position: absolute;
     top: -54px;
     left: -240px;
     z-index: -1;
 }
 
-.finish{
+.finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
     background: url('../img/bg/second_bg.png') center center/cover no-repeat;
 }
-.finish .finish_wrapper{
+
+.finish .finish_wrapper {
     margin-top: 41px;
     display: flex;
     justify-content: space-between;
 }
-.finish .finish_wrapper .finish_item{
+
+.finish .finish_wrapper .finish_item {
     width: 204px;
 }
-.finish .finish_wrapper .finish_item .finish_round{
+
+.finish .finish_wrapper .finish_item .finish_round {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,11 +247,105 @@ h2.title {
     background-color: #b4e2ff;
     border-radius: 100%;
 }
-.finish .finish_wrapper .finish_item .finish_descr{
+
+.finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 25px;
     color: #efefef;
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     text-align: center;
+}
+
+.gift {
+    min-height: 628px;
+    padding: 86px 0 87px 0;
+    background-color: #efefef;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.webinar {
+    min-height: 515px;
+    padding: 80px 0 71px 0;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_header {
+    padding-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.webinar .webinar_time {
+    padding-top: 20px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.webinar .webinar_signup {
+    margin-top: 15px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.contacts {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.contacts .contacts_link {
+    display: block;
+    margin: 0 auto;
+    height: 36px;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contacts .contacts_num {
+    display: block;
+    margin: 0 auto;
+    height: 36px;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
 }
