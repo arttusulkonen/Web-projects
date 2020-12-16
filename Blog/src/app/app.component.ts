@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 
 export interface Post { // object of posts
@@ -12,13 +12,17 @@ export interface Post { // object of posts
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent{
   posts: Post[] = [ // array of posts
-    {title: 'I want to learn Angular components', text: 'I\'m still learning components..', id: 1},
-    {title: 'The next block', text: 'Will be, about directives and pipes', id: 2}
+
   ];
 
   updatePosts(post: Post){
     this.posts.unshift(post);
+  }
+
+  removePost(id: number){
+    console.log('Id to remove', id);
+    this.posts = this.posts.filter(p => p.id !== id);
   }
 }
