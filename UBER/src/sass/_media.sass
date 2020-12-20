@@ -76,6 +76,112 @@
     .footer
         &_mobile
             width: 80%
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span    
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-size: 16px
+            color: #ffffff
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            line-height: 45px
+    .mobile
+        padding: 40px 0
+    .choice
+        min-height: 600px
+        padding: 40px 0
+        &_img
+            margin: 55px auto auto 50px;
+            width: 80%
+    .require
+        padding: 40px 0
+    .world
+        min-height: 450px
+    .footer
+        &_wrapper
+            padding-top: 22px
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &_social
+            margin-left: -10px
+        &_wrapper > div
+            margin-bottom: 20px
+            &:nth-child(1)
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                order: 3
+        &_links
+            width: 290px
+        &_mobile
+            width: 100%
+            
+            
+
+                
+				
+
+
 
             
 
