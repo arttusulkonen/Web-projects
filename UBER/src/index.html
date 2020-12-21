@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uber</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -13,15 +14,15 @@
 </head>
 
 <body>
-    <header>
+    <header id="kotisivu">
         <nav>
-            <div class="container">
+            <div class="container" >
                 <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link">Kotisivu</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Omalla autolla</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Yritysautolla</a></li>
+                    <li class="menu_item"><a href="#kotisivu" class="menu_link">Kotisivu</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">Omalla autolla</a></li>
+                    <li class="menu_item"><a href="#require_yritys" class="menu_link">Yritysautolla</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Vaatimukset</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Yhteystiedot</a></li>
+                    <li class="menu_item"><a href="#footer" class="menu_link">Yhteystiedot</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Jätä soittopyyntö</a></li>
                 </ul>
             </div>
@@ -253,7 +254,7 @@
         </div>
     </section>
 
-    <section class="require">
+    <section class="require" id="require">
         <div class="container">
             <div class="label">Mahdollisuukset</div>
             <div class="title">ehdot ja vaatimukset</div>
@@ -271,7 +272,7 @@
             </div>
             <div class="col-md-6">
                 <div class="require_block">
-                    <div class="require_title">Ehdot: Yritys autolla</div>
+                    <div class="require_title" id="require_yritys">Ehdot: Yritys autolla</div>
                     <ul class="require_list">
                         <li>Tarjoamme auton ilman vakuuksia</li>
                         <li>Ei päivittäisiä vuokramaksuja</li>
@@ -315,7 +316,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="footer">
         <div class="footer_divider"></div>
         <div class="footer_wrapper">
             <div>
