@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f41c075-9e8b-46a8-a121-33d0e4e21b87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_promo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_advantages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_titles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/blocks/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609239241915</updated>
-      <workItem from="1609239243156" duration="3463000" />
+      <workItem from="1609239243156" duration="5287000" />
     </task>
     <task id="LOCAL-00001" summary="created new project 'Pulse'">
       <created>1609239812909</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609239812909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first section created">
+      <created>1609242795558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609242795558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created new project 'Pulse'" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new project 'Pulse'" />
+    <MESSAGE value="first section created" />
+    <option name="LAST_COMMIT_MESSAGE" value="first section created" />
   </component>
 </project>
