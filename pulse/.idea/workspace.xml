@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f41c075-9e8b-46a8-a121-33d0e4e21b87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/blocks/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_carousel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/blocks/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,6 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js" />
+      <recent name="$PROJECT_DIR$/src/css/blocks" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/sass" />
     </key>
@@ -75,7 +88,7 @@
       <updated>1609239241915</updated>
       <workItem from="1609239243156" duration="8782000" />
       <workItem from="1609314660689" duration="99000" />
-      <workItem from="1609314792587" duration="5476000" />
+      <workItem from="1609314792587" duration="8102000" />
     </task>
     <task id="LOCAL-00001" summary="created new project 'Pulse'">
       <created>1609239812909</created>
@@ -112,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609319785448</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="media rules">
+      <created>1609330196754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609330196754</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,8 +154,8 @@
     <MESSAGE value="created new project 'Pulse'" />
     <MESSAGE value="first section created" />
     <MESSAGE value="second section created" />
-    <MESSAGE value="media rules" />
     <MESSAGE value="created new section. added input forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new section. added input forms" />
+    <MESSAGE value="media rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="media rules" />
   </component>
 </project>
