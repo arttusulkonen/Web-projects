@@ -422,4 +422,108 @@ h2.title {
         width: auto;
         margin: 0px;
     }
+    .title{
+        font-size: 30px;
+    }
+    .simple .title_big{
+        font-size: 70px;
+    }
+    .more{
+        margin-top: 40px;
+    }
+    .waiting .waiting_wrapper {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .waiting .waiting_wrapper .waiting_item .waiting_descr {
+        margin: 10px 0px 25px 0;
+    }
+    .optimization{
+        background: rgba(12, 12, 12, 0.7);
+    }
+    .optimization .optimization_header {
+        margin-left: 20px;
+        color: #299cbd;
+        font-family: "Roboto - Black";
+        font-size: 29px;
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    .optimization .optimization_text {
+        margin-top: 25px;
+        margin-left: 20px;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        font-family: "Roboto Light";
+        font-weight: 300;
+    }
+
+    .finish .finish_wrapper .finish_item .finish_round {
+        width: 100px;
+        height: 100px;
+    }
+    .gift{
+        padding: 60px 10px 70px 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+   .promo .title{
+       font-size: 25px;
+   }
+   .more{
+       margin-top: 50px;
+   }
+   .promo .promo_btn{
+       margin-top: 40px;
+   }
+   .simple .title_big{
+       font-size: 60px;
+   }
+   .waiting .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }       
+    .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin: 10px 0px 25px 0;
+    }
+    .optimization{
+        padding: 45px 10px 60px 10px;
+    }
+    .optimization .optimization_header {
+        margin-left: 0px;
+    }
+    .optimization .optimization_text{
+        margin-left: 0px;
+    }
+    .optimization .optimization_img{
+        display: none;
+    }
+    .finish .finish_wrapper {
+        margin-top: 41px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .finish .finish_wrapper .finish_item .finish_round{
+        width: 80px;
+        height: 80px;
+    }
+    .finish .finish_wrapper .finish_item .finish_descr{
+        margin: 10px 0 20px 0;
+    }
+    .gift{
+        padding: 60px 10px 70px 10px;
+    }
+   h1{
+       margin-top: 25px;
+   }
 }
