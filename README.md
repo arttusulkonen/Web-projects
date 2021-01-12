@@ -14,3 +14,8 @@ https://drive.google.com/file/d/1m6ft4AOQY7V35u81qrgA6blVyH3wzqsC/view?usp=shari
 Also i used gulp to automate some processes. <br>
 
 3.Pulse.
+In this project i used html & scss, js <br>
+Added carousel, interactive tabs, order forms. Google map in footer <br>
+layout <br>
+https://www.figma.com/file/zWtpNVgBT91sEg2li9JKBd/Pulse?node-id=0%3A1
+
