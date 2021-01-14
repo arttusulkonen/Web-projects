@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5281c361-c130-4380-b6b5-a198cd10cbe9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cv/ArttuSulkonenCv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/cv/ArttuSulkonenCv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/portfolio/UBER/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/portfolio/UBER/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +104,9 @@
       <workItem from="1610295878616" duration="244000" />
       <workItem from="1610303415706" duration="1225000" />
       <workItem from="1610350246560" duration="53000" />
+      <workItem from="1610440568599" duration="70000" />
+      <workItem from="1610448896170" duration="45000" />
+      <workItem from="1610624234394" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="creating portfolio website">
       <created>1609408715396</created>
