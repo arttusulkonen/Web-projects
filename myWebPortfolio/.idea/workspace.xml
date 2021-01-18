@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5281c361-c130-4380-b6b5-a198cd10cbe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pulse/.firebase/hosting.cHVibGljL3NyYw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../pulse/.firebase/hosting.cHVibGljL3NyYw.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,7 @@
       <workItem from="1610440568599" duration="70000" />
       <workItem from="1610448896170" duration="45000" />
       <workItem from="1610624234394" duration="15000" />
+      <workItem from="1610632502628" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="creating portfolio website">
       <created>1609408715396</created>
