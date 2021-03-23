@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd093b8-6e15-4c12-952b-0e7dde9844a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../newPortfolio/src/icons/skills/gulp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newPortfolio/dist/cv/ArttuSulkonenCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../newPortfolio/dist/cv/ArttuSulkonenCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newPortfolio/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newPortfolio/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newPortfolio/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newPortfolio/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,6 @@
       <option name="presentableId" value="Default" />
       <updated>1608553656778</updated>
       <workItem from="1608553658164" duration="1696000" />
-      <workItem from="1615024362874" duration="23000" />
     </task>
     <servers />
   </component>
@@ -90,6 +88,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
